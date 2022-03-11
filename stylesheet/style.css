@@ -32,3 +32,14 @@
 .about2{
     margin:5vh 10vw;
 }
+.services{
+    background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/s_image.jpg?raw=true");
+    background-size: cover;
+    width:100vw;
+    height: 47vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
