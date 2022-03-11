@@ -43,3 +43,11 @@
     align-items: center;
     color:white;
 }
+.second-header{
+    text-align: center;
+    margin:3vh 0;
+}
+.image-container{
+    display:flex;
+    justify-content: space-around;
+}
