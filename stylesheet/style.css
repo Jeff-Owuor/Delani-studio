@@ -24,6 +24,9 @@
 .about{
     text-align: center;
 }
+.about2{
+    height:30vh;
+}
 .about2 p{
       text-align: justify;
       font-size: 1.2vw;
@@ -36,7 +39,7 @@
     background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/s_image.jpg?raw=true");
     background-size: cover;
     width:100vw;
-    height: 47vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,4 +53,27 @@
 .image-container{
     display:flex;
     justify-content: space-around;
+}
+#design{
+    display:none;
+    color:black;
+    cursor: pointer;
+    width:25vw;
+    height:45vh;
+    margin:1.2vh 0;
+}
+.design h3{
+    text-align: center;
+}
+.design p{
+    text-align: justify;
+    font-size: 1.3vw;
+}
+.designP{
+    margin-top: 2vh;
+}
+.container8{
+    display:flex;
+    flex-direction: column;
+    align-self: flex-end;
 }
