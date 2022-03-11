@@ -8,3 +8,8 @@ $(document).ready(function(){
         $("#services").toggle();
     })
 })
+$(document).ready(function(){
+    // $("product-image").click(function(){
+    //     $("#products").toggle();
+    // })
+})
