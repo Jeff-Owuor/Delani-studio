@@ -12,8 +12,23 @@
 }
 .image{
     width:13vw;
+    margin-bottom: 2vh;
 }
 .image2{
     position:absolute;
     bottom:2vh;
 } 
+.header{
+    margin-bottom: 2vh;
+}
+/* .about{
+    text-align: center;
+}
+.about2 p{
+      text-align: justify;
+      font-size: 1.2vw;
+      font-family: Arial, Helvetica, sans-serif;
+}
+.about2{
+    margin:2vh 10vw;
+} */
