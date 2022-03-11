@@ -53,6 +53,7 @@
 .image-container{
     display:flex;
     justify-content: space-around;
+    height:55vh;
 }
 #design{
     display:none;

@@ -9,7 +9,7 @@ $(document).ready(function(){
     })
 })
 $(document).ready(function(){
-    $("product-image").click(function(){
+    $(".product-image").click(function(){
         $("#products").toggle();
     })
 })
