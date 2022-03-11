@@ -1,0 +1,19 @@
+/* #random{
+    background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/h_img.jpg?raw=true");
+    background-size: cover;
+    background-repeat: no-repeat;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height:100vh;
+   color:white;
+   position:relative;
+}
+.image{
+    width:13vw;
+}
+.image2{
+    position:absolute;
+    bottom:2vh;
+} */
