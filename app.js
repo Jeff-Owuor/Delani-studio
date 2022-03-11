@@ -4,7 +4,7 @@ $(document).ready(function(){
     })
 })
 $(document).ready(function(){
-    // $(".service-image").click(function(){
-    //     $("#services").toggle();
-    // })
+    $(".service-image").click(function(){
+        $("#services").toggle();
+    })
 })
