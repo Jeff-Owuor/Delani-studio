@@ -3,9 +3,11 @@ $(document).ready(function(){
         $("#design").toggle();
     })
 })
+
 $(document).ready(function(){
     $(".service-image").click(function(){
         $("#services").toggle();
+        
     })
 })
 $(document).ready(function(){

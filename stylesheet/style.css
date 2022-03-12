@@ -58,7 +58,6 @@
 #design{
     display:none;
     color:black;
-    cursor: pointer;
     width:25vw;
     height:45vh;
     margin:1.2vh 0;
@@ -73,7 +72,6 @@
 #services{
     display:none;
     color:black;
-    cursor: pointer;
     width:25vw;
     height:45vh;
     margin:1.2vh 0;
@@ -81,8 +79,51 @@
 #products{
     display:none;
     color:black;
-    cursor: pointer;
     width:25vw;
     height:45vh;
     margin:1.2vh 0;
 }
+
+
+.portfolio-management{
+   /* display:grid;
+   grid-template-columns:1fr 1fr 1fr 1fr;
+   grid-row-gap:0.7vh;
+   grid-column-gap:1.2vw; 
+    margin:3vh 0; */
+    display:flex;
+    flex-direction: row;
+    width:80vw;
+   
+}
+.portfolio-management img{
+     margin-left:1vw;
+     margin-bottom:1vh;
+}
+.portfolio{
+    width:70vw;
+}
+/* .formation{
+    background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/c_image.jpg?raw=true");
+    background-size: cover;
+    height:65vh;
+    width:100vw;
+    margin-bottom:8vh;
+}
+#heading{
+    text-align: center;
+    color:white;
+    margin:7vh 3vw;
+}
+.acter{
+    margin:2vh 20%;
+}
+.formation textarea{
+    margin-right:18%;
+    margin-left:28%;
+    background: transparent;
+    border:1px solid white;
+}
+::placeholder{
+    color:white;
+} */
