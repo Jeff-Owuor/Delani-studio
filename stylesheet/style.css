@@ -108,7 +108,7 @@
     background-size: cover;
     height:65vh;
     width:100vw;
-    margin-bottom:8vh;
+    margin-bottom:4vh;
 }
 #heading{
     text-align: center;
@@ -126,4 +126,8 @@
 }
 ::placeholder{
     color:white;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
 }
