@@ -1,17 +1,96 @@
+//toggle functionality
 $(document).ready(function(){
     $(".design-image").click(function(){
-        $("#design").toggle();
+        $("#design").show();
+        $(this).hide();
     })
 })
-
+$(document).ready(function(){
+    $("#design").click(function(){
+        $(".design-image").show();
+        $(this).hide()
+    })
+})
 $(document).ready(function(){
     $(".service-image").click(function(){
-        $("#services").toggle();
-        
+        $("#services").show();
+        $(this).hide();
+    })
+})
+$(document).ready(function(){
+    $("#services").click(function(){
+        $(".service-image").show();
+        $(this).hide();
     })
 })
 $(document).ready(function(){
     $(".product-image").click(function(){
-        $("#products").toggle();
+        $("#products").show();
+        $(this).hide();
+    })
+})
+$(document).ready(function(){
+    $("#products").click(function(){
+        $(".product-image").show();
+        $(this).hide();
+    })
+})
+// hover functionality 
+$(document).ready(function(){
+    $(".img1").hover(function(){
+        $(this).css("opacity","0.2");
+        $(".centered").show();
+    },function(){
+        $(this).css("opacity","0.9");
+        $(".centered").hide();
+    })
+    $(".img2").hover(function(){
+        $(this).css("opacity","0.2");
+        $(".centered2").show();
+    },function(){
+        $(this).css("opacity","0.9");
+        $(".centered2").hide();
+    })
+    $(".img3").hover(function(){
+        $(this).css("opacity","0.3");
+        $(".centered3").show();
+    },function(){
+        $(this).css("opacity","1");
+        $(".centered3").hide();
+    })
+    $(".img4").hover(function(){
+        $(this).css("opacity","0.3");
+        $(".centered4").show();
+    },function(){
+        $(this).css("opacity","1");
+        $(".centered4").hide();
+    })
+    $(".img5").hover(function(){
+        $(this).css("opacity","0.3");
+        $(".centered5").show();
+    },function(){
+        $(this).css("opacity","1");
+        $(".centered5").hide();
+    })
+    $(".img6").hover(function(){
+        $(this).css("opacity","0.3");
+        $(".centered6").show();
+    },function(){
+        $(this).css("opacity","1");
+        $(".centered6").hide();
+    })
+    $(".img7").hover(function(){
+        $(this).css("opacity","0.3");
+        $(".centered7").show();
+    },function(){
+        $(this).css("opacity","1");
+        $(".centered7").hide();
+    })
+    $(".img8").hover(function(){
+        $(this).css("opacity","0.3");
+        $(".centered8").show();
+    },function(){
+        $(this).css("opacity","1");
+        $(".centered8").hide();
     })
 })
